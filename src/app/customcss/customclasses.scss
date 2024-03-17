@@ -1,0 +1,88 @@
+// letter spacing
+.l-spacing {
+    letter-spacing: -0.188rem;
+  }
+  
+  // custom padding 
+  .p-40 {
+    padding: 2.5rem;
+  }
+  .p-80 {
+      padding-block: 5rem;
+      @media (max-width: 768px) {
+          padding-block: 1.5rem;
+        }
+  }
+  .p-60 {
+      padding-block: 3.75rem;
+      @media (max-width: 768px) {
+          padding-block: 1rem;
+        }
+  
+  }
+  .p-100 {
+      padding-block: 6.25rem;
+      @media (max-width: 768px) {
+          padding-block: 2rem;
+        }
+  }
+  
+  // custom gap
+  .gap-card {
+      gap: 1.25rem;
+  }
+  .gap-title {
+      gap: 1.85rem;
+  }
+  // border radius
+  .br-5 {
+    border-radius: 0.313rem;
+  }
+  .br-30 {
+      border-radius: 1.875rem;
+    }
+  
+  // box shadow 
+  .btn-bs {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  // bg
+  .bg-primary {
+    background-color: var(--primary) !important;
+  }
+  .bg-secondary {
+    background-color: var(--second) !important;
+  }
+  .bg-third {
+    background-color: var(--third);
+  }
+  .bg-lightblue {
+    background-color: var(--lightbg);
+  }
+  
+  // text color
+  .text-primary {
+      color: var(--primary) !important;
+    }
+  .text-darkblue {
+    color: var(--darkblue) !important;
+  }
+  .text-lightgrey1 {
+    color: #d2d2d2;
+  }
+  .text-mediumbrown {
+    color: var(--mediumbrown);
+  }
+  .text-darkbrown {
+      color: var(--darkbrown) !important;
+  }
+  
+  //z-index
+  .custom-z1 {
+    z-index: 100;
+  }
+  .custom-z2 {
+    z-index: 200;
+  }
+  

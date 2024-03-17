@@ -1,0 +1,55 @@
+.hero {
+  margin-top: 84px;
+}
+.hero_Inner {
+  min-height: 300px;
+  max-height: 674px;
+}
+
+.bnr_wrap {
+  width: 100vw;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-left,
+.bottom-right {
+  position: absolute;
+}
+
+.top-left {
+  top: 84px;
+  left: 0;
+}
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.hero_right {
+  padding: 40px;
+  z-index: 99;
+}
+
+.hero_left form input[type="text"] {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  max-width: 433px;
+  min-width: 200px;
+  height: 62px;
+  background: #ffffff;
+  border-radius: 1.875rem 0 0 1.875rem;
+  @media (max-width: 768px) {
+    max-width: 340px;
+  }
+}
+
+.hero_left form button {
+  cursor: pointer; 
+  max-width: 159px;
+  min-width: 140px;
+  height: 62px;
+  background: #fcdf69;
+  border-radius: 0 1.875rem 1.875rem 0;
+}

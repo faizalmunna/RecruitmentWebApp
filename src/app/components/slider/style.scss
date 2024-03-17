@@ -1,0 +1,24 @@
+.slider {
+  overflow: hidden;
+  gap: 2rem;
+  transition: transform 1s ease;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: calc(33.3% - 1.334rem);
+  opacity: 1;
+  transition: opacity 0.9s, transform 1s 0.01s;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+
+.animate-next {
+  opacity: 0;
+}
+
+.animate-previous {
+  opacity: 0;
+}
